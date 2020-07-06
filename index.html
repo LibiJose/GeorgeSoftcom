@@ -1,81 +1,333 @@
-<html>
- <head><title>George Softcom</title></head> 
-<body>
-	<style>
-	body{font-family: Arial;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEKsQu_zB6ICE0WhDxe1U_FBvmr2KNwlTsRgHQurHmDzZyPs0B&usqp=CAU");>
-	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-size: cover;}
-	</style>
-<!---header-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- DEMO COMPANY WEBSITE -->
+  <title>George Softcom</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-    .header img {
-  float: left;
-  width: 100px;
-  height: 75px;
-  background: #555;
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM5tHcYhnXfOtLXDQpevPP1K-tWtkhFXyD4Q&usqp=CAU");>
+    color: #fff;
+    padding: 50px 25px;
+	margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .container-fluid {
+    padding: 50px 50px;
+	margin-top:0;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+    .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  .logo img{
+	
+	margin-top:0;
+	float: left;
+  	
+	 border: none;
+ 	
+	  border-radius: 0;
+	 margin-bottom: 10px;
+  	background: #555;}
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: gray;
+  }
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfsmPgHuzVgzdHEd4R9mvhPWf4LhxdaZy4MWZT67UHZr-ngNMp&usqp=CAU");
+  background-repeat: repeat-x;
+    color: #f4511e;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+  }
+  .navbar {
+    
+    background-color: black;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+ .navbar .search-container {
+  float: right;
 }
 
-.header h1 {
-  text-align:center;
-  color:red;
-  position: relative;
-  top: 18px;
-  left: 10px;
-}</style>
-<div class="header">
-  <img src="logo.jpg" alt="logo" >
-  <h1><i><b>George Softcom</i></b></h1>
-</div>
-<hr>
-<!-- Navigation -->
-  <style> 
-	.navbar {
-   width: 100%;
-   background-color: black;
-   overflow: auto;
-   }
-	.navbar a {
+.navbar input[type=text] {
+  padding: 6px;
+  margin-right: 0px;
+  margin-top: 2px;
+  font-size: 12px;
+  border: none;
+}
+
+.navbar .search-container button {
   float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 13%; /* Four links of equal widths */
-  text-align: center;
+  padding: 6px ;
+  margin-top: 2px;
+  margin-right: 0px;
+  background: #ddd;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .search-container {
+    float: none;
   }
-	@media screen and (max-width: 500px) {
-  .navbar a {
+  .navbar a, .navbar input[type=text], .navbar .search-container button {
     float: none;
     display: block;
+   text-align: left; 
     width: 100%;
-    text-align: left;
+    margin: 0;
+    padding: 14px;
   }
- }
-	</style>
-  <nav class="navbar">
-   <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/Home.html" class="w3-button w3-bar-item ">Home</a>
-  <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/About.html" class="w3-button w3-bar-item ">About</a>
-  <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/Update.html" class="w3-button w3-bar-item ">Update</a>
-  <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/News.html" class="w3-button w3-bar-item ">News</a>
-  <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/Create%20Account.html" class="w3-button w3-bar-item">Create Account</a>
-  <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/Login.html" class="w3-button w3-bar-item ">Login</a>
-</nav><hr>
+  .navbar input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
 
-<!-- Slide Show -->
+  .navbar li a  {
+    color: yellow !important;
+  }
+  .navbar-nav li a:hover {
+    color: #f4511e  !important;
+    background-color:#fff !important;
+  }
+   .navbar-nav li.active a{
+
+	color: #f4511e !important;
+    background-color: #fff !important;
+  }
+
+   }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color:#fff!important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">
+	 <div class="logo">
+	 <img src ="logo.jpg"></img></div></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+	<li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#pricing">PRICING</a></li>
+	<li><a href="#contact">CONTACT</a></li>
+	<div class="search-container">
+    	  <form action="/action_page.php">
+      	   	<input type="text" placeholder="Search.." name="search">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    	  </form>
+  	</div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>George Softcom</h1> 
+  <p>We specialize in web design</p> 
+  <div class="search-container">
+    <form action="/action_page.php">
+     <div class="input-group float-left">
+      <input type="email" class="form-control" size="5"  placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+ </div>
+</div>
+<!-- Container (Home Section) -->
+<div id="home" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+	<!-- Slide Show -->
 <section>
-  <img class="mySlides" src="logo.jpg"
-  style="width:85%">
+ <!---   <img class="mySlides" src="logo.jpg"
+    style="width:85%" style="height=70%" > --->
   <img class="mySlides" src="fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg"
-  style="width:85%">
+  style="width:85%" style="height=70%">
   <img class="mySlides" src="green-chameleon-WvuTnXz1hSc-unsplash.jpg"
-  style="width:85%">
+  style="width:85%"style="height=70%">
   <img class="mySlides" src="shahadat-rahman-BfrQnKBulYQ-unsplash.jpg"
-  style="width:85%">
+  style="width:85%"style="height=70%">
+  <img class="mySlides" src="san.png" alt="San Francisco"
+  style="width:85%" style="height=70%">
+  <img class="mySlides" src="paris.jpg" alt="paris"
+  style="width:85%" style="height=70%">
+  <img class="mySlides" src="newyorkcity.jpg" alt="New York"
+  style="width:85%" style="height=70%">
 </section>
   <script>
-  // Automatic Slideshow - change image every 3 seconds
+  // Automatic Slideshow - change image every 5 seconds
   var myIndex = 0;
    carousel();
 
@@ -90,144 +342,308 @@
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 3000);
 }
-</script><br>
-<style>
-
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color:#24074 ;
-  color: white;
-}
-
-.container {
-  color:white;
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: black;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
-
-
-
-<div class="about-section">
-  <h1 style="color:purple"><i><b>  George Softcom</i></b></h1>
-  <p> GS is the world's largest IT services provider.</p>
-  <p> George Softcom headcouter loacted at bangalore in India </p>
-  <p> GS is the largest Indian company by market capitalisation.</p>
-  <p> George Softcom  is now placed among the most valuable IT services brands worldwide.</p> 
- 
+</script>
+</div>
+<div class="col-sm-4">
+     As a proactive web design company, Image Online has set a benchmark for quality products and dependable performance in its core focus areas of website designing, web Development Services, mobile application development, Web Application development & Global web Outsourcing services.
+	</div>
+</div>
+</div>
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <video width="320" height="240" controls>
+       <source src="E:\HTML Learning Class/HTML Tutorial for Beginners - 01 - Creating the first web page.mp4" type="video/mp4">
+       <source src="E:\HTML Learning Class/HTML Tutorial for Beginners - 01 - Creating the first web page.ogg" type="video/ogg">
+       Your browser does not support the video tag.
+     </video>
+    </div>
+    <div class="col-sm-8">
+      <h2>Online Service</h2><br>
+      <h4><strong>Online Class:</strong> This Is One Of The Most Comprehensive Digital Marketing Courses Available. We'll Cover SEO, YouTube Marketing, Facebook Marketing, Google Adwords, Google Analytics And More! You Will Be Confidently Implementing Marketing Strategies Across The Major Online....</h4><br>
+      <p><strong>View:</strong> Before moving on to the criteria for choosing a modern web technology stack, you should clearly understand what comprises the process of web application development.
+	Without going too deep into details, there are two sides to web development: the client side and the server side. The client side is also called the front end. Server-side programming involves an application (and a backend programming language that powers it), a database, and the server itself.</p>
+    </div>
+  </div>
 </div>
 
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Company Page</h2><br>
+      <h4>Our company provide different scope of services in the field of web design and web development. We deliver unique websites to clients across a wide range of sectors. We have a team of experts in website design, website development, e-commerce websites, content management systems (CMS website development) , online marketing (SEO, SEM, SMO) and mobile application development..</h4><br>
+      <p>  Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development.</p>
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+   <div class="col-sm-4">
+    <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MISSION:</strong> Our team provides adaptive software development which includes Ecommerce portal development, ERP solutions, E-Governance, Mobility solutions, Digital Marketing services, etc., We have refined user activity and also melded our Web development work with best practices. This makes our development programs the most competitive applications across the Globe. </h4><br>
+      <p><strong>VISION:</strong>   Our team has been delivering innovative, cost effective and timely solutions that drive the growth of small and medium-sized businesses worldwide. TechZarInfo with strong team of high quality professionals and management instilling matured processes, we help forward-thinking companies achieve and surpass their business goals.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
   <br>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="libi3.jpg" alt="libi" style="width:100%">
-      <div class="container">
-        <h2>Libi Jose</h2>
-        <p class="title">CEO </p>
-        <p>CEO of George Softcom.</p>
-        <p>libijose97@gmail.com</p>
-     <!---  <p><button class="button">Contact</button></p>--->
-      </div>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>POWER</h4>
+      <p>We provide a best visualize </p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Customer Satisfastion is our benefit</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Web technology</p>
     </div>
   </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>Provide serives to society</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Google certified for best design</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">HARD WORK</h4>
+      <p>Our team is our strength</p>
+    </div>
+  </div>
+</div>
 
-  <div class="column">
-    <div class="card">
-      <img src="founderbaby.jpg" alt="founder" style="width:100%">
-      <div class="container">
-        <h2>P C Baby</h2>
-        <p class="title">  Founder</p>
-        <p>Founder of George Softcom.</p>
-        
-    <!---    <p><button class="button">Contact</button></p> --->
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>What we have created</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
       </div>
     </div>
-  </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="san.png" alt="San Francisco" width="400" height="300">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+  <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="newyorkcity.jpg" alt="New York" width="400" height="300">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+  </div><br>
   
-  <div class="column">
-    <div class="card">
-      <img src="logo.jpg" alt="logo" style="width:100%">
-      <div class="container">
-        <h2><b>George Softcom</b></h2>
-        <p class="title"><i>Login to the wonder</i></p>
-        <p><b>GS</b> Software Product Engineering Services address the entire
-       spectrum of product engineering, covering development, testing
-       and assurance, and maintenance and end-of-life support.</p>
-        <p>georgesoftcom@gs.com</p>
-           
-    <!---   <p><button class="button">Contact</button></p>--->
+  <h2>What our customers say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+      </div>
+      <div class="item">
+        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>2</strong> Dolor</p>
+          <p><strong>5</strong> Euro</p>
+          <p><strong>15</strong> Pound</p>
+          <p><strong>20</strong> Rupee</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+	   <!-- <button class="btn btn-dark" type="button">Sign Up</button> -->
+          <button class="btn btn-lg">Sign Up</button> 
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>5</strong>Dolor </p>
+          <p><strong>10</strong> Euro</p>
+          <p><strong>25</strong> Pound</p>
+          <p><strong>5</strong>Rupee </p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>10</strong>Dolor </p>
+          <p><strong>25</strong> Euro</p>
+          <p><strong>50</strong> Pound</p>
+          <p><strong>100</strong>Rupee </p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+	<!-- <button class="btn btn-outline-success" type="button">Sign Up</button> -->
+          <button class="btn btn-lg">Sign Up</button> 
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<footer>
-<!-- Footer -->
-<!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="file:///C:/Users/LiniSoju/Desktop/HTMLcode/website1.html"> Geogre Softcom.com</a>
-  </div>
-  <!-- Copyright -->
+<!-- Image of location/map -->
+<img src="map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>George Softcom <a href="https://www.google.com" title="George Softcom">www.George Softcom.com</a></p>
 </footer>
 
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
 
+      // Store hash
+      var hash = this.hash;
 
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
 
 </body>
 </html>
-
